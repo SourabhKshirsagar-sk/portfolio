@@ -637,41 +637,41 @@ Assigned to: ThemeForest
 	
 	
 
-	// $(document).on({
-	// 	"contextmenu": function(e) {
-	// 		console.log("ctx menu button:", e.which); 
-	// 		e.preventDefault();
-	// 	},
-	// 	"mousedown": function(e) { 
-	// 		console.log("normal mouse down:", e.which); 
-	// 	},
-	// 	"mouseup": function(e) { 
-	// 		console.log("normal mouse up:", e.which); 
-	// 	}
-	//   });
-	//   $('body').bind('copy paste',function(e) {
-	// 	e.preventDefault(); return false; 
-	//   });
+	$(document).on({
+		"contextmenu": function(e) {
+			console.log("ctx menu button:", e.which); 
+			e.preventDefault();
+		},
+		"mousedown": function(e) { 
+			console.log("normal mouse down:", e.which); 
+		},
+		"mouseup": function(e) { 
+			console.log("normal mouse up:", e.which); 
+		}
+	  });
+	  $('body').bind('copy paste',function(e) {
+		e.preventDefault(); return false; 
+	  });
 	  
 	  
-	//   document.onkeypress = function (event) {  
-	//   event = (event || window.event);  
-	//   if (event.keyCode == 123) {  
-	//   return false;  
-	//   }  
-	//   }  
-	//   document.onmousedown = function (event) {  
-	//   event = (event || window.event);  
-	//   if (event.keyCode == 123) {  
-	//   return false;  
-	//   }  
-	//   }  
-	//   document.onkeydown = function (event) {  
-	//   event = (event || window.event);  
-	//   if (event.keyCode == 123) {  
-	//   return false;  
-	//   }  
-	//   }  
+	  document.onkeypress = function (event) {  
+	  event = (event || window.event);  
+	  if (event.keyCode == 123) {  
+	  return false;  
+	  }  
+	  }  
+	  document.onmousedown = function (event) {  
+	  event = (event || window.event);  
+	  if (event.keyCode == 123) {  
+	  return false;  
+	  }  
+	  }  
+	  document.onkeydown = function (event) {  
+	  event = (event || window.event);  
+	  if (event.keyCode == 123) {  
+	  return false;  
+	  }  
+	  }  
 	  
 
 	
